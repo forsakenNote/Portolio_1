@@ -139,6 +139,13 @@ p {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-image {
     margin-top: 25px;
     width: 250px;
