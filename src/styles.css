@@ -3,9 +3,7 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
 }
 
 section.hero {
@@ -51,7 +49,12 @@ p {
     margin: 0;
     font-size: 30px;
     font-weight: 300;
-} 
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
+}
 
 .hero-area {
     display: flex;
@@ -105,12 +108,47 @@ p {
     padding: 80px;
 }
 
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
 .headshot {
     width: 300px;
-    border-radius: 200px;
+    border-radius: 150px;
 }
 
 .headshot-container {
     display: flex;
     align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(225, 223, 223);
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
 }
