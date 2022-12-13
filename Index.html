@@ -13,16 +13,16 @@
         <nav>
             <img class="logo" src="src/images/logo.png" alt="Ania Kubow's logo"/>
             <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
             </ul>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Sara Arruga</h1>
                 <p>Full Stack Developer</p>
-                <div class="button">About me</div>
+                <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials"">
                 <div>
@@ -43,7 +43,7 @@
             </div>
         </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello. My name is Sara Arruga. I am a Fullstack Developer</p>
@@ -54,7 +54,7 @@
     </section>
     <section class="sub-section-alternative">
         <h2>Projects</h2>
-        <div class="project-container">
+        <div class="project-container" id="projects">
             <div class="project-card">
                 <img class="project-image" src="src/images/project1.jpeg" alt="Project one image"/>
                 <h3>Project One</h3>
@@ -85,7 +85,10 @@
             </div>
         </div>
     </section>
-    <footer></footer>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>myemail@myemail.com</p>
+    </footer>
 
 
     <script src="src/app.js"></script>
